@@ -1,0 +1,98 @@
+.quem-sou {
+  width: 100%;
+  background: #171717;
+}
+
+.foto-perfil img {
+  margin: 20px auto;
+}
+
+.foto-perfil img:hover {
+  border: 3px solid #913af4;
+}
+
+.foto-perfil h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #913af4;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+}
+
+.foto-perfil h1::after {
+  content: " ";
+  display: block;
+  width: 60px;
+  height: 3px;
+  border: 3px solid #913af4;
+  margin: 10px auto;
+}
+
+.quem-sou h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #913af4;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+}
+
+.quem-sou h2::after {
+  content: " ";
+  display: block;
+  width: 60px;
+  height: 3px;
+  border: 3px solid #913af4;
+  margin: 10px auto;
+}
+
+.quem-sou p {
+  font-size: 1.125em;
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.habilidades {
+  width: 100%;
+  height: 445px;
+  background: url(../img/background-portfolio.jpg) no-repeat;
+  display: block;
+}
+
+.habilidades h3 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin: 10px auto;
+}
+
+.habilidades h3::after {
+  content: " ";
+  display: block;
+  width: 60px;
+  height: 3px;
+  border: 3px solid #fff;
+  margin: 10px auto;
+}
+
+.habilidades ul li {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.habilidades ul li img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
