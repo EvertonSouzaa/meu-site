@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/sobre.css">
   <link rel="stylesheet" href="css/style.css">
+
+
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -33,12 +36,12 @@
   <section class="quem-sou">
     <div class="container">
       <div class="foto-perfil grid-8">
-        <h1>Everton Souza</h1>
-        <img src="img/everton-foto.jpg" alt="Everton Souza foto">
+        <h1 data-anime="400">Everton Souza</h1>
+        <img data-anime="400" src="img/everton-foto.jpg" alt="Everton Souza foto">
       </div>
       <div class="grid-8">
-        <h2>Quem Sou</h2>
-        <p>Sou estudante de Análise e desenvolvimento de
+        <h2 data-anime="400">Quem Sou</h2>
+        <p class="fadeInDown" data-anime="800">Sou estudante de Análise e desenvolvimento de
           Sistemas e estou no 4º período, apaixonado por
           tecnologias e novos conhecimentos, sempre
           buscando aprender mais, interagir e compartilhar o
@@ -50,28 +53,28 @@
   <section class="habilidades">
     <div class="container">
       <div class="grid-16">
-        <h3>Habilidades</h3>
-        <div class="grid-5">
-          <img src="img/icones-skill/adobe-xd-icone.png">
+        <h3 data-anime="1000">Habilidades</h3>
+        <div data-anime="1200" class="grid-5">
+          <img src=" img/icones-skill/adobe-xd-icone.png">
           <p>Adobe XD</p>
         </div>
-        <div class="grid-5">
+        <div data-anime="1200" class="grid-5">
           <img src="img/icones-skill/css.png">
           <p>CSS</p>
         </div>
-        <div class="grid-5">
+        <div data-anime="1200" class="grid-5">
           <img src="img/icones-skill/vue.png">
           <p>Vue.js</p>
         </div>
-        <div class="grid-5">
+        <div data-anime="1200" class="grid-5">
           <img src="img/icones-skill/wordpress.png">
           <p>Wordpress</p>
         </div>
-        <div class="grid-5">
+        <div data-anime="1200" class="grid-5">
           <img src="img/icones-skill/reagir.png">
           <p>React</p>
         </div>
-        <div class="grid-5">
+        <div data-anime="1200" class="grid-5">
           <img src="img/icones-skill/icone-javascript.png">
           <p>Javascript</p>
         </div>
@@ -110,6 +113,8 @@
     </div>
   </footer>
 
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
