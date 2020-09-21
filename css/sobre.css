@@ -61,6 +61,9 @@
   height: 445px;
   background: url(../img/background-portfolio.jpg) no-repeat;
   display: block;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .habilidades h3 {
@@ -81,18 +84,14 @@
   margin: 10px auto;
 }
 
-.habilidades ul li {
-  font-size: 1.125em;
-  font-weight: bold;
-  color: #fff;
-  margin-bottom: 10px;
-  margin-top: 10px;
+.habilidades div > img {
+  max-width: 50px;
+  float: left;
+  margin: 50px 50px;
 }
 
-.habilidades ul li img {
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  margin-right: 50px;
-  margin-bottom: 10px;
+.habilidades div > p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 65px auto 10px 10px;
 }
