@@ -196,6 +196,11 @@ body {
   border-bottom: 3px solid #fff;
 }
 
+.footer-menu ul li a.menu_ativo {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
 .footer-redes h4 {
   color: #913af4;
   font-weight: bold;
