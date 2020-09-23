@@ -10,7 +10,7 @@
     margin: 30px auto;
   }
   .portfolio-itens img {
-    max-width: 740px;
+    max-width: 720px;
     height: 304px;
     background-size: cover;
     margin: 10px auto;
@@ -32,8 +32,89 @@
     float: left;
     margin: 50px 10px 0px 50px;
   }
+
+  .footer-redes h4 {
+    text-align: left;
+  }
+  .footer-redes ul li a {
+    border: 3px solid #913af4;
+    display: block;
+    padding: 10px;
+    margin: 20px 0px;
+  }
+
+  .info {
+    margin: 5px auto;
+  }
 } /* Final do estilo para tablets */
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 787px) {
-} /* Final estilo para smartphone */
+  /*787*/
+  .header {
+    width: 100%;
+    background: #000;
+    padding: 10px 0;
+    margin: 0px auto;
+  }
+  .header > div > a > img {
+    margin: 10px 170px;
+  }
+
+  .header-menu {
+    margin: 20px auto;
+  }
+
+  .header-menu ul li {
+    text-align: center;
+    display: inline;
+    margin: 10px 10px;
+  }
+
+  .portfolio-itens h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 20px;
+    margin-left: 130px;
+  }
+  .portfolio-itens p {
+    text-align: center;
+  }
+
+  .portfolio-itens ul li img {
+    width: 450px;
+    height: 304px;
+    margin-right: 80px;
+    padding: 10px 0;
+  }
+
+  .footer-menu {
+    margin: 10px auto;
+  }
+
+  .footer-menu ul li a {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px -40px 0px 20px;
+  }
+  .footer-redes h4 {
+    text-align: center;
+    margin: 20px auto;
+  }
+  .footer-redes ul li a {
+    border: none;
+    display: block;
+    padding: 0px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+  }
+  .footer-redes ul li a:hover {
+    border: 2px solid #913af4;
+  }
+
+  .info {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  /* Final estilo para smartphone */
+}
