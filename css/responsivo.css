@@ -72,26 +72,49 @@
   }
 
   .portfolio-itens h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 20px;
+    margin-left: 130px;
   }
   .portfolio-itens p {
+    text-align: center;
   }
 
   .portfolio-itens ul li img {
+    width: 450px;
+    height: 304px;
+    margin-right: 80px;
+    padding: 10px 0;
   }
 
   .footer-menu {
+    margin: 10px auto;
   }
 
   .footer-menu ul li a {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px -40px 0px 20px;
   }
   .footer-redes h4 {
+    text-align: center;
+    margin: 20px auto;
   }
   .footer-redes ul li a {
+    border: none;
+    display: block;
+    padding: 0px;
+    margin-top: -130px;
+    margin-bottom: 10px;
   }
   .footer-redes ul li a:hover {
+    border: 2px solid #913af4;
   }
 
   .info {
+    margin-top: 50px;
+    margin-bottom: 10px;
   }
   /* Final estilo para smartphone */
 }
